@@ -48,3 +48,10 @@ allOpen {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+
+tasks.register<JavaExec>("runJpaMain") {
+	group = "application"
+	description = "Run the JpaMain class."
+	classpath = sourceSets["main"].runtimeClasspath
+	mainClass.set("com.example.exam_proj.JpaMain")
+}
