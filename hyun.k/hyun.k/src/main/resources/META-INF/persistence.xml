@@ -4,9 +4,20 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
 
     <persistence-unit name="hyun-persistence">
-        <class>chapter3.Member</class>
-        <class>chapter4.Members</class>
-        <class>chapter4.User</class>
+<!--        <class>chapter3.Member</class>-->
+<!--        <class>chapter4.Members</class>-->
+<!--        <class>chapter4.User</class>-->
+<!--        <class>chapter5.Member</class>-->
+<!--        <class>chapter5.Team</class>-->
+
+        <class>chapter6.homework1.Team</class>
+        <class>chapter6.homework1.Member</class>
+        <class>chapter6.homework2.Member2</class>
+        <class>chapter6.homework2.Locker2</class>
+
+        <class>chapter6.homework3.Member3</class>
+        <class>chapter6.homework3.Product</class>
+        <class>chapter6.homework3.Order</class>
 
         <properties>
             <!-- DB 연결 정보 -->
